@@ -6,6 +6,7 @@
 {-# LANGUAGE MagicHash , UnliftedFFITypes #-}
 -- For mixType:
 {-# LANGUAGE KindSignatures, PolyKinds #-}
+{-# LANGUAGE TypeSynonymInstances #-}
 module Data.Hashabler.Internal where
 
 -- To avoid circular dependencies.
